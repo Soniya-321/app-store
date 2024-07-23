@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: bree serif;
+}
+.main-heading {
+  font-size: 30px;
+}
+.input-label {
+  background-color: transparent;
+  border: 1px solid #7b8794;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 5px;
+  font-size: 18px;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.tabitems-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+.applist-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 45px;
+  }
+  .input {
+    font-size: 25px;
+  }
+  .search-icon {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+}

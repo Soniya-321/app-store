@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.app-list-container {
+  list-style-type: none;
+  margin: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+.app-img {
+  height: 40px;
+  width: 40px;
+}
+.app-heading {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-list-container {
+    height: 180px;
+    width: 170px;
+  }
+  .app-heading {
+    font-size: 22px;
+  }
+  .app-img {
+    height: 80px;
+    width: 80px;
+  }
+}
